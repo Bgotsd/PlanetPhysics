@@ -1,0 +1,38 @@
+* **************************************************
+* NETWORK     : II
+* STATION     : BORG
+* LOCATION    : 00
+* CHANNEL     : BH1
+* CREATED     : 2026-03-17T05:52:47.588600Z
+* START       : 2003-09-22T21:00:00.000000Z
+* END         : 2011-10-03T23:59:59.000000Z
+* DESCRIPTION : Borgarfjordur, Asbjarnarstadir, Iceland
+* LATITUDE    : 64.7474
+* LONGITUDE   : -21.3268
+* ELEVATION   : 110.0
+* DEPTH       : 95.0
+* DIP (SEED)  : 0.0
+* AZIMUTH     : 225.2
+* SAMPLE RATE : 20.0
+* INPUT UNIT  : M
+* OUTPUT UNIT : counts
+* INSTTYPE    : None
+* INSTGAIN    : 2278.33 (m/s)
+* SENSITIVITY : 2348030000.0 (m/s)
+* A0          : 22.3867
+* **************************************************
+ZEROS 4
+ +0.000000e+00 +0.000000e+00
+ +0.000000e+00 +0.000000e+00
+ +0.000000e+00 +0.000000e+00
+ +0.000000e+00 +0.000000e+00
+POLES 5
+ -1.174090e-02 +0.000000e+00
+ -7.639420e-04 +0.000000e+00
+ -6.652490e-04 +0.000000e+00
+ -2.754120e+00 +3.768960e+00
+ -2.754120e+00 -3.768960e+00
+CONSTANT 5.256464e+10
+
+
+

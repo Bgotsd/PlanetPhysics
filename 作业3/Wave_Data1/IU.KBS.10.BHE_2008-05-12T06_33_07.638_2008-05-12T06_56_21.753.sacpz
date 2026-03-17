@@ -1,0 +1,37 @@
+* **************************************************
+* NETWORK     : IU
+* STATION     : KBS
+* LOCATION    : 10
+* CHANNEL     : BHE
+* CREATED     : 2026-03-17T05:52:48.921897Z
+* START       : 1999-04-15T00:00:00.000000Z
+* END         : 2009-09-28T00:00:00.000000Z
+* DESCRIPTION : Ny-Alesund, Spitzbergen, Norway
+* LATITUDE    : 78.9154
+* LONGITUDE   : 11.9385
+* ELEVATION   : 87.0
+* DEPTH       : 3.0
+* DIP (SEED)  : 0.0
+* AZIMUTH     : 100.0
+* SAMPLE RATE : 40.0
+* INPUT UNIT  : M
+* OUTPUT UNIT : counts
+* INSTTYPE    : None
+* INSTGAIN    : 1467.0 (m/s)
+* SENSITIVITY : 615298000.0 (m/s)
+* A0          : 59680700.0
+* **************************************************
+ZEROS 3
+ +0.000000e+00 +0.000000e+00
+ +0.000000e+00 +0.000000e+00
+ +0.000000e+00 +0.000000e+00
+POLES 5
+ -3.564700e-02 -3.687900e-02
+ -3.564700e-02 +3.687900e-02
+ -2.513300e+02 +0.000000e+00
+ -1.310400e+02 -4.672900e+02
+ -1.310400e+02 +4.672900e+02
+CONSTANT 3.672142e+16
+
+
+

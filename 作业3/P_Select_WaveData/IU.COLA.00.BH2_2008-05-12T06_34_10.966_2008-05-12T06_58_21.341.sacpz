@@ -1,0 +1,37 @@
+* **************************************************
+* NETWORK     : IU
+* STATION     : COLA
+* LOCATION    : 00
+* CHANNEL     : BH2
+* CREATED     : 2026-03-17T05:52:48.575067Z
+* START       : 2005-09-27T00:00:00.000000Z
+* END         : 2009-07-08T22:00:00.000000Z
+* DESCRIPTION : College Outpost, Alaska, USA
+* LATITUDE    : 64.873599
+* LONGITUDE   : -147.8616
+* ELEVATION   : 80.0
+* DEPTH       : 120.0
+* DIP (SEED)  : 0.0
+* AZIMUTH     : 201.0
+* SAMPLE RATE : 20.0
+* INPUT UNIT  : M
+* OUTPUT UNIT : counts
+* INSTTYPE    : None
+* INSTGAIN    : 1950.6 (m/s)
+* SENSITIVITY : 818092000.0 (m/s)
+* A0          : 55065.5
+* **************************************************
+ZEROS 3
+ +0.000000e+00 +0.000000e+00
+ +0.000000e+00 +0.000000e+00
+ +0.000000e+00 +0.000000e+00
+POLES 5
+ -4.800400e-03 +0.000000e+00
+ -7.319900e-02 +0.000000e+00
+ -1.816000e+01 -2.168520e+01
+ -1.816000e+01 +2.168520e+01
+ -5.943130e+01 +0.000000e+00
+CONSTANT 4.504865e+13
+
+
+
