@@ -38,6 +38,7 @@ conda activate pyweed
 # 数据工作流
 
 ```mermaid
+%%{init: {'theme': 'dark'}}%%
 graph LR
     A(Pyweed) --> B[Get Waves]
     B -->D[WaveData:MiniSEED/SAC]
