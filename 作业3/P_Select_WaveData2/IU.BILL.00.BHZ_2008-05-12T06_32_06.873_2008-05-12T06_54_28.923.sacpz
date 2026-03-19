@@ -1,0 +1,36 @@
+* **************************************************
+* NETWORK     : IU
+* STATION     : BILL
+* LOCATION    : 00
+* CHANNEL     : BHZ
+* CREATED     : 2026-03-17T05:52:48.545708Z
+* START       : 1999-03-27T21:45:00.000000Z
+* END         : 2009-07-03T00:00:00.000000Z
+* DESCRIPTION : Bilibino, Russia
+* LATITUDE    : 68.0653
+* LONGITUDE   : 166.4531
+* ELEVATION   : 320.0
+* DEPTH       : 0.0
+* DIP (SEED)  : -90.0
+* AZIMUTH     : 0.0
+* SAMPLE RATE : 20.0
+* INPUT UNIT  : M
+* OUTPUT UNIT : counts
+* INSTTYPE    : None
+* INSTGAIN    : 2450.0 (m/s)
+* SENSITIVITY : 1027540000.0 (m/s)
+* A0          : 3948.58
+* **************************************************
+ZEROS 3
+ +0.000000e+00 +0.000000e+00
+ +0.000000e+00 +0.000000e+00
+ +0.000000e+00 +0.000000e+00
+POLES 4
+ -1.234000e-02 -1.234000e-02
+ -1.234000e-02 +1.234000e-02
+ -3.918000e+01 -4.912000e+01
+ -3.918000e+01 +4.912000e+01
+CONSTANT 4.057324e+12
+
+
+

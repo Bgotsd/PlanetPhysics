@@ -1,0 +1,36 @@
+* **************************************************
+* NETWORK     : II
+* STATION     : KDAK
+* LOCATION    : 00
+* CHANNEL     : BHN
+* CREATED     : 2026-03-17T05:52:47.887459Z
+* START       : 2004-09-18T00:00:00.000000Z
+* END         : 2009-08-10T23:59:59.000000Z
+* DESCRIPTION : Kodiak Island, Alaska, USA
+* LATITUDE    : 57.7828
+* LONGITUDE   : -152.5835
+* ELEVATION   : 152.0
+* DEPTH       : 88.0
+* DIP (SEED)  : 0.0
+* AZIMUTH     : 2.1
+* SAMPLE RATE : 20.0
+* INPUT UNIT  : M
+* OUTPUT UNIT : counts
+* INSTTYPE    : None
+* INSTGAIN    : 2213.17 (m/s)
+* SENSITIVITY : 2200980000.0 (m/s)
+* A0          : 23.9117
+* **************************************************
+ZEROS 3
+ +0.000000e+00 +0.000000e+00
+ +0.000000e+00 +0.000000e+00
+ +0.000000e+00 +0.000000e+00
+POLES 4
+ -7.639420e-04 +0.000000e+00
+ -1.169960e-02 +0.000000e+00
+ -2.996330e+00 +3.781890e+00
+ -2.996330e+00 -3.781890e+00
+CONSTANT 5.262917e+10
+
+
+
