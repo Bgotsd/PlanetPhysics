@@ -7,9 +7,13 @@ UTC时间：2008-05-12 06:28:01
 # 台站数据
 
 - 常用圆形约束：miniradius=30 maxradius=90
+
   - 研究地震波穿透地球内部的路径时用圆心角（度）来衡量距离比公里更直观：1度=111km
 - 考虑地震波传播的速度，至少获得震后30min内数据
 - P波明显并且信噪比较好的台站名：COLA,KDAK,MIDW,TARA,CTAO,MBWA,COCO,PALK,KMBO,GRFO,ALE
+- 震中距分布均匀
+
+  PALK,KIV,DGAR,COCO,OBN,WRAB,BILL,ALE,GRFO,CTAO,ESK,KDAK,IL31,PAB,SFJD,LSZ
 
 Python地震学库，可以获取、处理数据
 
