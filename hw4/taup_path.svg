@@ -1,0 +1,506 @@
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0 0 576.0 576.0"
+     >
+  <metadata>
+    <taup>
+      <command>taup path &#45;&#45;model ./model/europa.nd -h 10 &#45;&#45;deg 60 -p P,S,PKP &#45;&#45;svg </command>
+      <version>3.1.0</version>
+      <a href="https://github.com/crotwell/TauP">https://github.com/crotwell/TauP</a>
+    </taup>
+  </metadata>
+  <defs>
+    <style type="text/css"><![CDATA[
+        text.label {
+            font-size: 40px;
+        }
+        g.phasename text {
+            font-size: 40px;
+        }
+
+        .phase_P {
+          stroke: skyblue;
+        }
+        circle.phase_P {
+          fill: skyblue;
+          stroke: skyblue;
+        }
+        .phase_P.label {
+          stroke: skyblue;
+          fill: skyblue;
+        }
+        .legend .phase_P line {
+          stroke: skyblue;
+        }
+        .legend .phase_P text {
+          fill: skyblue;
+          stroke: transparent;
+        }
+        .label text.phase_P{
+          font: bold ;
+          fill: skyblue;
+          stroke: transparent;
+        }
+        .phase_S {
+          stroke: olivedrab;
+        }
+        circle.phase_S {
+          fill: olivedrab;
+          stroke: olivedrab;
+        }
+        .phase_S.label {
+          stroke: olivedrab;
+          fill: olivedrab;
+        }
+        .legend .phase_S line {
+          stroke: olivedrab;
+        }
+        .legend .phase_S text {
+          fill: olivedrab;
+          stroke: transparent;
+        }
+        .label text.phase_S{
+          font: bold ;
+          fill: olivedrab;
+          stroke: transparent;
+        }
+        .phase_PKP {
+          stroke: goldenrod;
+        }
+        circle.phase_PKP {
+          fill: goldenrod;
+          stroke: goldenrod;
+        }
+        .phase_PKP.label {
+          stroke: goldenrod;
+          fill: goldenrod;
+        }
+        .legend .phase_PKP line {
+          stroke: goldenrod;
+        }
+        .legend .phase_PKP text {
+          fill: goldenrod;
+          stroke: transparent;
+        }
+        .label text.phase_PKP{
+          font: bold ;
+          fill: goldenrod;
+          stroke: transparent;
+        }
+
+text.title {
+    text-anchor: middle;
+    dominant-baseline: auto;
+    font-size: 20px;
+}
+circle {
+    vector-effect: non-scaling-stroke;
+    stroke: grey;
+    fill: transparent;
+}
+.xtick {
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+.ytick {
+    text-anchor: end;
+    dominant-baseline: middle;
+
+}
+.legend line {
+    text-anchor: end;
+    dominant-baseline: middle;
+    fill: transparent;
+}
+.legend text {
+    text-anchor: start;
+    dominant-baseline: middle;
+}
+
+line.tick {
+    vector-effect: non-scaling-stroke;
+    stroke: black;
+    fill: transparent;
+}
+.xlabel {
+    text-anchor: middle;
+}
+.ylabel {
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+.phaselabel {
+    text-anchor: end;
+    dominant-baseline: middle;
+}
+polyline {
+    vector-effect: non-scaling-stroke;
+    fill: transparent;
+}
+polyline.tick {
+    stroke: black;
+}
+polyline.sourcedepth {
+    stroke: lightgrey;
+}
+polyline.receiverdepth {
+    stroke: lightgrey;
+}
+polyline.scattererdepth {
+    stroke: lightgrey;
+}
+circle.discontinuity {
+    vector-effect: non-scaling-stroke;
+    stroke: grey;
+    fill: none;
+}
+circle.discontinuity.surface {
+    fill: lightgoldenrodyellow;
+}
+circle.discontinuity.moho {
+    fill: blanchedalmond;
+}
+circle.discontinuity.cmb {
+    fill: lemonchiffon;
+}
+circle.discontinuity.iocb {
+    fill: burlywood;
+}
+
+        g.autocolor > :nth-child(10n+1) {
+            stroke: skyblue;
+        }
+        g.autocolor > :nth-child(10n+2) {
+            stroke: olivedrab;
+        }
+        g.autocolor > :nth-child(10n+3) {
+            stroke: goldenrod;
+        }
+        g.autocolor > :nth-child(10n+4) {
+            stroke: firebrick;
+        }
+        g.autocolor > :nth-child(10n+5) {
+            stroke: darkcyan;
+        }
+        g.autocolor > :nth-child(10n+6) {
+            stroke: chocolate;
+        }
+        g.autocolor > :nth-child(10n+7) {
+            stroke: darkmagenta;
+        }
+        g.autocolor > :nth-child(10n+8) {
+            stroke: mediumvioletred;
+        }
+        g.autocolor > :nth-child(10n+9) {
+            stroke: sienna;
+        }
+        g.autocolor > :nth-child(10n+10) {
+            stroke: rebeccapurple;
+        }
+
+        .autocolor.phaselabel > :nth-child(10n+1) {
+            fill: skyblue;
+        }
+        .autocolor.phaselabel > :nth-child(10n+2) {
+            fill: olivedrab;
+        }
+        .autocolor.phaselabel > :nth-child(10n+3) {
+            fill: goldenrod;
+        }
+        .autocolor.phaselabel > :nth-child(10n+4) {
+            fill: firebrick;
+        }
+        .autocolor.phaselabel > :nth-child(10n+5) {
+            fill: darkcyan;
+        }
+        .autocolor.phaselabel > :nth-child(10n+6) {
+            fill: chocolate;
+        }
+        .autocolor.phaselabel > :nth-child(10n+7) {
+            fill: darkmagenta;
+        }
+        .autocolor.phaselabel > :nth-child(10n+8) {
+            fill: mediumvioletred;
+        }
+        .autocolor.phaselabel > :nth-child(10n+9) {
+            fill: sienna;
+        }
+        .autocolor.phaselabel > :nth-child(10n+10) {
+            fill: rebeccapurple;
+        }
+
+        .autocolor.legend > :nth-child(10n+1) {
+            fill: skyblue;
+        }
+        .autocolor.legend > :nth-child(10n+2) {
+            fill: olivedrab;
+        }
+        .autocolor.legend > :nth-child(10n+3) {
+            fill: goldenrod;
+        }
+        .autocolor.legend > :nth-child(10n+4) {
+            fill: firebrick;
+        }
+        .autocolor.legend > :nth-child(10n+5) {
+            fill: darkcyan;
+        }
+        .autocolor.legend > :nth-child(10n+6) {
+            fill: chocolate;
+        }
+        .autocolor.legend > :nth-child(10n+7) {
+            fill: darkmagenta;
+        }
+        .autocolor.legend > :nth-child(10n+8) {
+            fill: mediumvioletred;
+        }
+        .autocolor.legend > :nth-child(10n+9) {
+            fill: sienna;
+        }
+        .autocolor.legend > :nth-child(10n+10) {
+            fill: rebeccapurple;
+        }
+
+
+    ]]></style>
+  <clipPath id="curve_clip">
+    <rect x="-1" y="-1" width="577.0" height="577.0"/>
+  </clipPath>
+  </defs>
+<!-- draw axis and label distances.-->
+
+<!-- scale/translate so coordinates in earth units ( square ~ 2R x 2R)-->
+<g transform="scale(0.15374759,0.15374759)" >
+<g transform="translate(1873.2001,1873.2001)" >
+<!-- scale/translate so zoomed in on area of interest -->
+<g transform="scale(2.3094013,2.3094013)" >
+<g transform="translate(-675.9328,885.0672)" >
+<g class="ticks">
+<!-- draw surface and label distances.-->
+<!-- tick marks every 10.0 degrees to 180.0.-->
+  <polyline  class="tick"  points=" -271.06   1537.28,  -276.93   1570.57" />
+  <text dominant-baseline="hanging" text-anchor="middle" class="label" x="-277.23" y="1572.23">-170.0</text>
+  <polyline  class="tick"  points=" -533.89   1466.86,  -545.45   1498.62" />
+  <text dominant-baseline="hanging" text-anchor="middle" class="label" x="-546.03" y="1500.21">-160.0</text>
+  <polyline  class="tick"  points=" -780.50   1351.87,  -797.40   1381.13" />
+  <text dominant-baseline="hanging" text-anchor="middle" class="label" x="-798.24" y="1382.60">-150.0</text>
+  <polyline  class="tick"  points="-1003.39   1195.80, -1025.12   1221.69" />
+  <text dominant-baseline="hanging" text-anchor="middle" class="label" x="-1026.20" y="1222.98">-140.0</text>
+  <polyline  class="tick"  points="-1195.80   1003.39, -1221.69   1025.12" />
+  <text dominant-baseline="hanging" text-anchor="end" class="label" x="-1222.98" y="1026.20">-130.0</text>
+  <polyline  class="tick"  points="-1351.87    780.50, -1381.13    797.40" />
+  <text dominant-baseline="baseline" text-anchor="end" class="label" x="-1382.60" y="798.24">-120.0</text>
+  <polyline  class="tick"  points="-1466.86    533.89, -1498.62    545.45" />
+  <text dominant-baseline="middle" text-anchor="end" class="label" x="-1500.21" y="546.03">-110.0</text>
+  <polyline  class="tick"  points="-1537.28    271.06, -1570.57    276.93" />
+  <text dominant-baseline="middle" text-anchor="end" class="label" x="-1572.23" y="277.23">-100.0</text>
+  <polyline  class="tick"  points="-1561.00     -0.00, -1594.80     -0.00" />
+  <text dominant-baseline="middle" text-anchor="end" class="label" x="-1596.49" y="-0.00">-90.0</text>
+  <polyline  class="tick"  points="-1537.28   -271.06, -1570.57   -276.93" />
+  <text dominant-baseline="middle" text-anchor="end" class="label" x="-1572.23" y="-277.23">-80.0</text>
+  <polyline  class="tick"  points="-1466.86   -533.89, -1498.62   -545.45" />
+  <text dominant-baseline="middle" text-anchor="end" class="label" x="-1500.21" y="-546.03">-70.0</text>
+  <polyline  class="tick"  points="-1351.87   -780.50, -1381.13   -797.40" />
+  <text dominant-baseline="middle" text-anchor="end" class="label" x="-1382.60" y="-798.24">-60.0</text>
+  <polyline  class="tick"  points="-1195.80  -1003.39, -1221.69  -1025.12" />
+  <text dominant-baseline="baseline" text-anchor="end" class="label" x="-1222.98" y="-1026.20">-50.0</text>
+  <polyline  class="tick"  points="-1003.39  -1195.80, -1025.12  -1221.69" />
+  <text dominant-baseline="baseline" text-anchor="middle" class="label" x="-1026.20" y="-1222.98">-40.0</text>
+  <polyline  class="tick"  points=" -780.50  -1351.87,  -797.40  -1381.13" />
+  <text dominant-baseline="baseline" text-anchor="middle" class="label" x="-798.24" y="-1382.60">-30.0</text>
+  <polyline  class="tick"  points=" -533.89  -1466.86,  -545.45  -1498.62" />
+  <text dominant-baseline="baseline" text-anchor="middle" class="label" x="-546.03" y="-1500.21">-20.0</text>
+  <polyline  class="tick"  points=" -271.06  -1537.28,  -276.93  -1570.57" />
+  <text dominant-baseline="baseline" text-anchor="middle" class="label" x="-277.23" y="-1572.23">-10.0</text>
+  <polyline  class="tick"  points="    0.00  -1561.00,     0.00  -1594.80" />
+  <text dominant-baseline="baseline" text-anchor="middle" class="label" x="0.00" y="-1596.49">0.0</text>
+  <polyline  class="tick"  points="  271.06  -1537.28,   276.93  -1570.57" />
+  <text dominant-baseline="baseline" text-anchor="middle" class="label" x="277.23" y="-1572.23">10.0</text>
+  <polyline  class="tick"  points="  533.89  -1466.86,   545.45  -1498.62" />
+  <text dominant-baseline="baseline" text-anchor="middle" class="label" x="546.03" y="-1500.21">20.0</text>
+  <polyline  class="tick"  points="  780.50  -1351.87,   797.40  -1381.13" />
+  <text dominant-baseline="baseline" text-anchor="middle" class="label" x="798.24" y="-1382.60">30.0</text>
+  <polyline  class="tick"  points=" 1003.39  -1195.80,  1025.12  -1221.69" />
+  <text dominant-baseline="baseline" text-anchor="middle" class="label" x="1026.20" y="-1222.98">40.0</text>
+  <polyline  class="tick"  points=" 1195.80  -1003.39,  1221.69  -1025.12" />
+  <text dominant-baseline="baseline" text-anchor="start" class="label" x="1222.98" y="-1026.20">50.0</text>
+  <polyline  class="tick"  points=" 1351.87   -780.50,  1381.13   -797.40" />
+  <text dominant-baseline="middle" text-anchor="start" class="label" x="1382.60" y="-798.24">60.0</text>
+  <polyline  class="tick"  points=" 1466.86   -533.89,  1498.62   -545.45" />
+  <text dominant-baseline="middle" text-anchor="start" class="label" x="1500.21" y="-546.03">70.0</text>
+  <polyline  class="tick"  points=" 1537.28   -271.06,  1570.57   -276.93" />
+  <text dominant-baseline="middle" text-anchor="start" class="label" x="1572.23" y="-277.23">80.0</text>
+  <polyline  class="tick"  points=" 1561.00      0.00,  1594.80      0.00" />
+  <text dominant-baseline="middle" text-anchor="start" class="label" x="1596.49" y="0.00">90.0</text>
+  <polyline  class="tick"  points=" 1537.28    271.06,  1570.57    276.93" />
+  <text dominant-baseline="middle" text-anchor="start" class="label" x="1572.23" y="277.23">100.0</text>
+  <polyline  class="tick"  points=" 1466.86    533.89,  1498.62    545.45" />
+  <text dominant-baseline="middle" text-anchor="start" class="label" x="1500.21" y="546.03">110.0</text>
+  <polyline  class="tick"  points=" 1351.87    780.50,  1381.13    797.40" />
+  <text dominant-baseline="middle" text-anchor="start" class="label" x="1382.60" y="798.24">120.0</text>
+  <polyline  class="tick"  points=" 1195.80   1003.39,  1221.69   1025.12" />
+  <text dominant-baseline="hanging" text-anchor="start" class="label" x="1222.98" y="1026.20">130.0</text>
+  <polyline  class="tick"  points=" 1003.39   1195.80,  1025.12   1221.69" />
+  <text dominant-baseline="hanging" text-anchor="middle" class="label" x="1026.20" y="1222.98">140.0</text>
+  <polyline  class="tick"  points="  780.50   1351.87,   797.40   1381.13" />
+  <text dominant-baseline="hanging" text-anchor="middle" class="label" x="798.24" y="1382.60">150.0</text>
+  <polyline  class="tick"  points="  533.89   1466.86,   545.45   1498.62" />
+  <text dominant-baseline="hanging" text-anchor="middle" class="label" x="546.03" y="1500.21">160.0</text>
+  <polyline  class="tick"  points="  271.06   1537.28,   276.93   1570.57" />
+  <text dominant-baseline="hanging" text-anchor="middle" class="label" x="277.23" y="1572.23">170.0</text>
+  <polyline  class="tick"  points="    0.00   1561.00,     0.00   1594.80" />
+  <text dominant-baseline="hanging" text-anchor="middle" class="label" x="0.00" y="1596.49">180.0</text>
+  </g>
+<g class="layers">
+  <circle class="discontinuity surface" cx="0.0" cy="0.0" r="1561.0" />
+  <circle class="discontinuity 0.0" cx="0.0" cy="0.0" r="1561.0" />
+  <circle class="discontinuity 20.0" cx="0.0" cy="0.0" r="1541.0" />
+  <circle class="discontinuity 100.0" cx="0.0" cy="0.0" r="1461.0" />
+  <circle class="discontinuity moho" cx="0.0" cy="0.0" r="1456.0" />
+  <circle class="discontinuity cmb" cx="0.0" cy="0.0" r="661.0" />
+  </g>
+<!-- draw paths, coordinates are x,y not degree,radius due to SVG using only cartesian -->
+  <g class="autocolor" >
+<g>
+    <desc>   60.00    10.0   P    300.87     2.756     22.88    22.73    60.00   * Ped100P</desc>
+    <g>
+      <desc>seg 1/3 P of P(Ped100P) at   300.87 seconds at    60.00 degrees for a     10.0 km deep source in the europa model with rayParam    2.756 s/deg. in crust</desc>
+      <polyline class="path phase_P pwave" points="
+    0.00  -1551.00
+    4.22  -1540.99
+    4.38  -1539.91
+    6.71  -1524.11
+    9.04  -1508.32
+   11.37  -1492.52
+   13.70  -1476.72
+   16.03  -1460.91
+" />
+    </g>
+    <g>
+      <desc>seg 2/3 P of P(Ped100P) at   300.87 seconds at    60.00 degrees for a     10.0 km deep source in the europa model with rayParam    2.756 s/deg. in crust/mantle</desc>
+      <polyline class="path phase_P pwave" points="
+   16.03  -1460.91
+   17.82  -1455.89
+   19.89  -1454.67
+   21.97  -1453.44
+   24.05  -1452.21
+   26.14  -1450.98
+   30.34  -1448.51
+   34.55  -1446.02
+   38.79  -1443.52
+   43.06  -1441.01
+   51.66  -1435.94
+   60.37  -1430.81
+   69.19  -1425.62
+   78.11  -1420.37
+   87.16  -1415.05
+  101.25  -1406.76
+  115.65  -1398.29
+  132.90  -1388.16
+  150.66  -1377.73
+  169.00  -1366.98
+  187.98  -1355.85
+  207.70  -1344.30
+  228.26  -1332.26
+  249.79  -1319.67
+  261.18  -1313.09
+  272.47  -1306.42
+  286.36  -1298.43
+  300.09  -1290.29
+  314.16  -1282.20
+  328.09  -1273.97
+  343.49  -1265.14
+  358.73  -1256.12
+  375.99  -1246.26
+  393.04  -1236.16
+  406.46  -1228.59
+  419.75  -1220.86
+  432.91  -1213.00
+  449.71  -1203.60
+  466.32  -1193.97
+  482.75  -1184.11
+  498.74  -1175.47
+  514.57  -1166.61
+  530.26  -1157.54
+  545.80  -1148.26
+  561.17  -1138.77
+  579.12  -1128.99
+  596.90  -1118.93
+  614.51  -1108.59
+  631.94  -1097.98
+" />
+    </g>
+    <g>
+      <desc>seg 3/3 P of P(Ped100P) at   300.87 seconds at    60.00 degrees for a     10.0 km deep source in the europa model with rayParam    2.756 s/deg. in crust/mantle</desc>
+      <polyline class="path phase_P pwave" points="
+  631.94  -1097.98
+  649.87  -1088.24
+  667.66  -1078.21
+  685.29  -1067.89
+  702.76  -1057.28
+  718.69  -1048.75
+  734.52  -1039.98
+  750.24  -1030.97
+  765.86  -1021.72
+  781.36  -1012.24
+  798.14  -1002.99
+  814.81   -993.47
+  831.38   -983.67
+  844.79   -976.23
+  858.14   -968.62
+  871.43   -960.82
+  888.73   -951.15
+  905.93   -941.18
+  921.38   -932.54
+  936.75   -923.65
+  950.87   -915.75
+  964.93   -907.64
+  978.86   -899.85
+  992.75   -891.86
+ 1004.19   -885.45
+ 1015.60   -878.91
+ 1037.31   -866.61
+ 1058.04   -854.88
+ 1077.93   -843.64
+ 1097.09   -832.82
+ 1115.60   -822.36
+ 1133.54   -812.24
+ 1150.97   -802.42
+ 1165.52   -794.22
+ 1179.77   -786.20
+ 1188.91   -781.05
+ 1197.94   -775.97
+ 1206.86   -770.95
+ 1215.66   -766.00
+ 1224.37   -761.11
+ 1228.69   -758.68
+ 1232.98   -756.27
+ 1237.25   -753.87
+ 1241.49   -751.49
+ 1243.61   -750.30
+ 1245.72   -749.12
+ 1247.82   -747.93
+ 1249.92   -746.76
+ 1255.16   -747.73
+ 1269.99   -753.66
+ 1284.83   -759.58
+ 1299.66   -765.50
+ 1314.49   -771.43
+ 1329.31   -777.34
+ 1330.33   -777.75
+ 1341.10   -779.13
+ 1344.00   -779.50
+ 1345.28   -779.66
+ 1346.93   -779.87
+ 1348.58   -780.08
+ 1350.22   -780.29
+ 1351.04   -780.40
+ 1351.45   -780.45
+ 1351.87   -780.50
+" />
+    </g>
+</g>
+  </g> <!-- end autocolor -->
+  </g> 
+  </g> <!-- end zoom -->
+  </g> <!-- end translate -->
+  </g> 
+</svg>
