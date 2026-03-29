@@ -1,0 +1,10 @@
+
+Model: mars_nocore.taup
+Distance   Depth   Phase    Travel    Ray Param  Takeoff  Incident Station   Purist   Purist
+  (deg)     (km)   Name     Time (s)  p (s/deg)   (deg)    (deg)    (km)     Distance Name  
+--------------------------------------------------------------------------------------------
+   27.00    33.0   PKKP     1784.96     0.642      2.51     2.49      0.0   333.00   * PKKp  
+   27.00    33.0   PKPPKP   2232.93     1.027      4.02     3.98      0.0   333.00   * PKpPKp
+   27.00    33.0   PKPPKP   2270.88     3.885     15.38    15.23      0.0   333.00   * PKpPKp
+   27.00    33.0   PKPPKP   2492.16     4.186     16.61    16.44      0.0   387.00   * PKpPKp
+
